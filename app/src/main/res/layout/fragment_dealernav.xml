@@ -40,6 +40,7 @@
             />
 
         <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/FAB_btn"
             android:layout_width="wrap_content"
             android:layout_height="862dp"
             android:contentDescription="TODO"
