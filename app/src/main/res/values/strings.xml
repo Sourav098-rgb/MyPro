@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">My Pro</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string-array name="Milk">
+        <item name="fat_milk">fat milk </item>
+        <item name="non_fat_milk"> non fat milk </item>
+
+
+
+
+    </string-array>
+
+</resources>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/dealerNav">
+
+
+    <fragment
+        android:id="@+id/dealerNav"
+        android:name="com.example.mypro.BottomNavFragments.DealerNav"
+        android:label="fragment_dealernav"
+        tools:layout="@layout/fragment_dealernav" />
+    <fragment
+        android:id="@+id/clientNav"
+        android:name="com.example.mypro.BottomNavFragments.ClientNav"
+        android:label="fragment_client_nav"
+        tools:layout="@layout/fragment_client_nav" />
+
+</navigation>
